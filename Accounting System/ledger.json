@@ -1,0 +1,38 @@
+{
+  "transactions": [
+    {
+      "id": "454a7ee4-11ff-46cd-9be9-225fe796d494",
+      "date": "2026-07-22",
+      "description": "売上",
+      "entries": [
+        {
+          "account": "Cash",
+          "amount": "100.00",
+          "memo": ""
+        },
+        {
+          "account": "Revenue",
+          "amount": "-100.00",
+          "memo": ""
+        }
+      ]
+    },
+    {
+      "id": "26a2d59a-9049-4987-b0d3-70675d9f9aae",
+      "date": "2026-07-23",
+      "description": "返品",
+      "entries": [
+        {
+          "account": "売上",
+          "amount": "300.00",
+          "memo": ""
+        },
+        {
+          "account": "仕入",
+          "amount": "-300.00",
+          "memo": ""
+        }
+      ]
+    }
+  ]
+}
